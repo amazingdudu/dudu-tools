@@ -1,15 +1,18 @@
 {
-    "name": "dudu",
+    "name": "@bairong/dudu",
     "version": "1.0.0",
-    "description": "",
+    "description": "Tools for rs-ui",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier": "prettier -c -w '**/*'",
-        "lint": "eslint lib"
+        "lint": "eslint lib --fix"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "rs-ui",
+        "build-tools"
+    ],
+    "author": "shaoyang",
     "bin": {
         "dudu": "bin/index.js"
     },

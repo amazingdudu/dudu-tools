@@ -1,0 +1,9 @@
+lib
+dist
+es
+node_module
+.eslintignore
+.gitignore
+.prettierignore
+.DS_Store
+package-lock.json

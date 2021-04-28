@@ -1,0 +1,6 @@
+.gitignore
+.npmignore
+.prettierignore
+.DS_Store
+.eslintignore
+template

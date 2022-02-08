@@ -24,7 +24,7 @@ program
 
 program
     .command('run <type>')
-    .description('执行gulp任务')
+    .description('执行gulp编译任务')
     .action(type => {
         runTask(type);
     })
@@ -32,7 +32,9 @@ program
         console.log('');
         console.log('Examples:');
         console.log(chalk.greenBright('dudu run compile'));
-        console.log(chalk.greenBright('dudu run compile:less'));
+        console.log(chalk.greenBright('dudu run lib'));
+        console.log(chalk.greenBright('dudu run es'));
+        console.log(chalk.greenBright('dudu run dist'));
         console.log('');
         console.log('');
     });

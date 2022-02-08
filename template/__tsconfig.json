@@ -3,11 +3,13 @@
         "experimentalDecorators": true,
         "target": "es5",
         "lib": ["dom", "dom.iterable", "esnext"],
-        "allowJs": false,
+        "allowJs": true,
         "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noImplicitReturns": true,
@@ -18,8 +20,9 @@
         "jsx": "react",
         "declaration": true,
         "removeComments": true,
-        "isolatedModules": false
+        "isolatedModules": false,
+        "baseUrl": "."
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "lib", "es", "src/**/style/*"]
+    "include": ["src"],
+    "exclude": ["node_modules", "lib", "src/**/style/*"]
 }

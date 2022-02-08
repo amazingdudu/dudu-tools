@@ -1,9 +1,10 @@
 .idea/
-node_modules/
-npm-debug.log
-package-lock.json
 .DS_Store
 .vscode/
 es/
 lib/
 dist/
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock

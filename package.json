@@ -1,6 +1,6 @@
 {
     "name": "@bairong/dudu-tools",
-    "version": "1.1.0",
+    "version": "2.0.1",
     "description": "react components tools",
     "keywords": [
         "react components",
@@ -35,7 +35,7 @@
         "@babel/preset-typescript": "^7.16.7",
         "autoprefixer": "^10.4.2",
         "babel-loader": "^8.2.3",
-        "chalk": "^5.0.0",
+        "chalk": "^4.1.2",
         "commander": "^9.0.0",
         "css-loader": "^6.6.0",
         "css-minimizer-webpack-plugin": "^3.4.1",
